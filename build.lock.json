@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "build_id": "sha256:28c9e4e883aa84d3a59fdcb303da509db9ec0f2af1aaff260c7d2309748cae1e",
+  "ksor_version": "0.0.60",
+  "okf": {
+    "version": "0.2",
+    "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
+    "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
+  },
+  "source_commit": null,
+  "dirty": true,
+  "as_of": "2026-09-18T13:55:25.536Z",
+  "drafts": "hidden",
+  "instance_sha256": "c582ad9424f33457c00b74879a24e98de10e89da830b28ddb235fbe4ba351ddb",
+  "policy_sha256": "5812a47635edbc009745e5795aaa14792d41928f10599b8e7a7fc53707cc9885",
+  "people_sha256": "3ddeef5164c0c0096ef5d462c429f188a0b915316b4ddcd8ab5725f9fb716758",
+  "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ledger_entries": [],
+  "audiences": {
+    "registry": [],
+    "viewers": {
+      "public": [
+        "public"
+      ]
+    }
+  },
+  "documents": [
+    {
+      "path": "accessories.md",
+      "sha256": "7664702c1a669709061505d2059e3261e947e1978f081632eef54f869c6f7b65",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "ai-shopping-agent.md",
+      "sha256": "27560043f12b2e5ed3316fafd9dc00e3cbf271152fe89eb372314745e7614dfd",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "discounts.md",
+      "sha256": "addfae567c43a84315358f8184d0a7a090e37712d0a5583ab8d6884072695186",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "kids-clothes.md",
+      "sha256": "057fd5631fc5c693e1399e332bc21f3a82d898deac8d5fb262dbdfa714a5a361",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "mens-clothes.md",
+      "sha256": "52df130d4f574b3641815bf6c20fa28bb0bc02738203cf791f48708742d4ac6d",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "refund-policy.md",
+      "sha256": "ded06ec27463c228616ec6aa21d1315a8d2b8d5858e821f7acb0b198a3a94e05",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "return-policy.md",
+      "sha256": "fb64681fa39432f0309cca85dff8522405d2d697253dde4e3d16fd4c6143a4e0",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "shoes.md",
+      "sha256": "075d59a6b877da5bf12678148d7a7847ce01fa7b81dad51f5d14a1d87e824a3f",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "womens-clothes.md",
+      "sha256": "7eb6ffea7320e467ecce807f7acdffc047d0cdb14a171591ed1be6e36234b9ff",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    }
+  ],
+  "companions": [],
+  "assets": [],
+  "indexes": [
+    {
+      "path": "index.md",
+      "sha256": "f355c260112d505edb23e36ee12fd2c67a307c19912b443fc7125f3bec6c9faa"
+    }
+  ],
+  "bundles": [
+    {
+      "viewer": "public",
+      "sha256": "04fa3ce346ab4f250b4698192bfb425ccde215323071469054780252486639b0",
+      "files": 10
+    }
+  ]
+}

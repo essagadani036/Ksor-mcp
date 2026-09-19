@@ -1,0 +1,7 @@
+version: "0.1"
+approval_authorities:
+  - actors:
+      - human:you
+takedown_authorities:
+  actors:
+    - human:you
