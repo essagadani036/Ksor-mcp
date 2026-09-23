@@ -1,4 +1,4 @@
-# my-knowledge-sor
+# Ksor-mcp
 
 A **Knowledge System of Record**: the governed source of knowledge this
 project's people and AI agents operate from.
