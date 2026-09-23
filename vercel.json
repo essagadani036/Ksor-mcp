@@ -1,4 +1,18 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "system/site/out"
+  "outputDirectory": "system/site/out",
+  "rewrites": [
+    {
+      "source": "/mcp(.*)",
+      "destination": "https://ksor-mcp-server.onrender.com/mcp$1"
+    },
+    {
+      "source": "/health",
+      "destination": "https://ksor-mcp-server.onrender.com/health"
+    },
+    {
+      "source": "/ready",
+      "destination": "https://ksor-mcp-server.onrender.com/ready"
+    }
+  ]
 }
