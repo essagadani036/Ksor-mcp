@@ -1,18 +1,38 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "system/site/out",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "site": {
+      "root": ".",
+      "installCommand": "npm install",
+      "buildCommand": "npm run build",
+      "outputDirectory": "system/site/out"
+    },
+    "door": {
+      "root": ".",
+      "runtime": "container",
+      "entrypoint": "Dockerfile"
+    }
+  },
   "rewrites": [
     {
       "source": "/mcp(.*)",
-      "destination": "https://ksor-mcp-server.onrender.com/mcp$1"
+      "destination": { "service": "door" }
+    },
+    {
+      "source": "/.well-known/oauth-protected-resource(.*)",
+      "destination": { "service": "door" }
     },
     {
       "source": "/health",
-      "destination": "https://ksor-mcp-server.onrender.com/health"
+      "destination": { "service": "door" }
     },
     {
       "source": "/ready",
-      "destination": "https://ksor-mcp-server.onrender.com/ready"
+      "destination": { "service": "door" }
+    },
+    {
+      "source": "/(.*)",
+      "destination": { "service": "site" }
     }
   ]
 }
